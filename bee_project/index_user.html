@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style_user.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <img class="logo" src="img/logo2.jpg.svg" alt="logo du site">
+    <div class="nav_premier">
+        <select class="select_actualite">
+            <option value="1" selected>Actualités</option>
+            <option value="2">Documentaires</option>
+            <option value="3">Annonces</option>
+            <option value="4">Photos</option>
+        </select>
+        <select class="select_projet"  onchange="location = this.value;">
+            <option value="1">Projets</option>
+            <option value="index_Ass.html">Associatifs</option>
+            <option value="index_P.html">Participatifs</option>
+        </select>
+        <select id="select_decouverte">
+            <option value="1" selected>Près de chez vous</option>
+            <option value="2">Espèces</option>
+            <option value="3">Producteurs</option>
+        </select>
+        <p><a href="index_A.html">Ateliers</p></a>
+        <p><a href="index_S.html">Santé</a></p>
+        <p><a href="index_C.html">Cuisine</a></p>
+    </div>
+    <p></p>
+</nav>
+<section>
+    <aside>
+        <img src="img/reinedesabeilles.png" alt="photo de profil">
+        <ul>
+            <li>Créer article</li>
+            <li>Modifier article</li>
+            <li>Supprimer article</li>
+            <li>Favoris</li>
+        </ul>
+    </aside>
+    <main>
+        <div class="info">
+            <div>
+                <p>MarineT</p>
+                <p>De: Narbonne(Europe)</p>
+            </div>
+            <div >
+                <form action="get">
+                    <textarea name="description" id="" cols="50" rows="10"></textarea>
+                    <input type="button" value="Modifier">
+                </form>
+            </div>
+        </div>
+        <div class="total_favori">
+            <div class="favori">
+                <img src="img/large_project_image.jpg" alt="">
+                <p>Ruches connectées</p></div>
+            <div class="favori">
+                <img src="img/himalaya.jpg" alt="">
+                <p>Les ruches de l'Himalaya</p>
+            </div>
+            <div class="favori">
+                <img src="img/192.jpg" alt="">
+                <p>Le miel bleu</p>
+            </div>
+        </div>
+    </main>
+</section>
+</body>
+</html>

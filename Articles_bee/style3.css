@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Cagliostro-Regular';
+    src: url('Cagliostro-Regular.ttf');
+}
+body{
+    margin: 0%;
+    background-image: url(WBDheader.jpg);
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family:'Cagliostro-Regular',Arial, sans-serif;
+}
+
+nav{
+    background-color: #ebcf18;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+.nav_premier{
+    display:flex;
+    justify-content: space-between;
+    width:700px;
+    
+}
+.nav_premier select{
+    border: none;
+    background-color: #ebcf18;
+    height: 28px;
+    margin-top: 15px;
+    font-size: 1em;
+    -webkit-appearance: none;
+    color:black;
+    font-family: 'Cagliostro-Regular',Arial, sans-serif;
+}
+
+.nav_premier p{
+    margin-top: 18px;
+}
+
+.logo {
+    height: 61px;
+}
+
+
+/*nav{
+    border-radius: 15px;
+    height: 90px;
+    background-color: #f8d217;
+}*/
+/*select{
+    border-radius: 15px;
+    background-color: #f8d217;
+    font-family: 'Cagliostro-Regular',Arial, sans-serif;
+    font-size: 1.7em;
+}
+/*.fab{
+    font-size:30px; 
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}*/
+.container{
+    width: 1000px;
+    margin: auto;
+    padding-top: 5.5em;
+}
+.ruche{
+    width: 400px;
+    height: 350px;
+}
+figcaption{
+    font-size: 25px;
+}
+.disp{
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 15px;
+    display: flex;
+}
+.centre{
+    text-align: center;
+}
+
+.end{
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+.com{
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 13px #ebcf18;
+}
+
+
+
+

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="contenair">
+    <H2>Quel zone souhaites-tu polliniser <span id="yellow">MarineT</span> ? </H2>
+<div>
+
+<div class="grid-container">
+
+    <div class="grid-item" onmouseover=""></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div id="9"  class="grid-item"></div>
+    <div id="10" class="grid-item"></div>
+    <div id="11"  onclick="location.href='bee_project/index_europe.html'" class="grid-item"></div>
+    <div id="12" onclick="location.href='bee_project/index_europe.html'" class="grid-item"></div>
+    <div id="13" class="grid-item"></div>
+    <div id="14" class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div id="16" class="grid-item"></div>
+    <div id="17" class="grid-item"></div>
+    <div id="18" class="grid-item"></div>
+    <div id="19" class="grid-item"></div>
+    <div id="20"class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div id="24" class="grid-item"></div>
+    <div id="25" class="grid-item"></div>
+    <div id="26" class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div id="28" class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div id="31" class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <a href="bee_project/world.html"> <i class="fas fa-globe"></i></a><p id="monde">Tour du monde.</p>
+</div>
+</div>
+</div>
+
+</body>
+
+<script type="text/javascript" language="javascript">
+    // change amerique du nord
+
+    document.getElementById('9').addEventListener('mouseover',changeImage);
+    function changeImage(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/amfiniS.png')";
+    }
+    document.getElementById('9').addEventListener('mouseleave',changeImage1);
+    function changeImage1(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/7314_2.jpg')";
+    }
+    document.getElementById('16').addEventListener('mouseover',changeImage);
+    document.getElementById('16').addEventListener('mouseleave',changeImage1);
+    document.getElementById('17').addEventListener('mouseover',changeImage);
+    document.getElementById('17').addEventListener('mouseleave',changeImage1);
+    document.getElementById('11').addEventListener('mouseover',changeImage);
+    document.getElementById('11').addEventListener('mouseleave',changeImage1);
+    document.getElementById('10').addEventListener('mouseover',changeImage);
+    document.getElementById('10').addEventListener('mouseleave',changeImage1);
+    document.getElementById('10').addEventListener('mouseover',changeImage);
+    document.getElementById('10').addEventListener('mouseleave',changeImage1);
+
+// change amérique du sud
+
+    document.getElementById('24').addEventListener('mouseover',changeImageA);
+    function changeImageA(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/amSfini.png')";
+    }
+    document.getElementById('24').addEventListener('mouseleave',changeImage1);
+    document.getElementById('31').addEventListener('mouseover',changeImageA);
+    document.getElementById('31').addEventListener('mouseleave',changeImage1);
+
+    // change europe
+
+    document.getElementById('11').addEventListener('mouseover',changeImageB);
+    function changeImageB(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/eurofin4.png')";
+    }
+    document.getElementById('11').addEventListener('mouseleave',changeImage1);
+    document.getElementById('12').addEventListener('mouseover',changeImageB);
+    document.getElementById('12').addEventListener('mouseleave',changeImage1);
+
+
+//change aff
+
+    document.getElementById('18').addEventListener('mouseover',changeImageC);
+    function changeImageC(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/affin2.png')";
+    }
+    document.getElementById('18').addEventListener('mouseleave',changeImage1);
+    document.getElementById('19').addEventListener('mouseover',changeImageC);
+    document.getElementById('19').addEventListener('mouseleave',changeImage1);   document.getElementById('25').addEventListener('mouseover',changeImageC);
+    document.getElementById('25').addEventListener('mouseleave',changeImage1);   document.getElementById('26').addEventListener('mouseover',changeImageC);
+    document.getElementById('26').addEventListener('mouseleave',changeImage1);
+
+    // change asie
+
+    document.getElementById('13').addEventListener('mouseover',changeImageD);
+    function changeImageD(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/asifin.png')";
+    }
+    document.getElementById('13').addEventListener('mouseleave',changeImage1);
+    document.getElementById('20').addEventListener('mouseover',changeImageD);
+    document.getElementById('20').addEventListener('mouseleave',changeImage1);
+    document.getElementById('14').addEventListener('mouseover',changeImageD);
+    document.getElementById('14').addEventListener('mouseleave',changeImage1);
+
+    //  change australia
+
+    document.getElementById('28').addEventListener('mouseover',changeImageE);
+    function changeImageE(){
+        document.getElementsByClassName('grid-container')[0].style.background= "url('abeille/austrafin.png')";
+    }
+    document.getElementById('28').addEventListener('mouseleave',changeImage1);
+
+    </script>
+</html>

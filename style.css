@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Cagliostro-Regular';
+    src: url('abeille/Cagliostro-Regular.ttf');
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Cagliostro-Regular;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.contenair{
+    max-height: 720px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+}
+.grid-container {
+    margin-top: 0px;
+    background-image: url("abeille/7314_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 100px 100px 180px 100px 50px 150px auto;
+    grid-template-rows: 120px 150px 80px auto 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+.grid-item {
+    border: hidden;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#yellow {
+    color: #ffec00;
+}
+
+.fas { font-size: 40px;
+margin-top: 0px;}
+.fas:hover {
+    color: #ffec00;
+}
+
+#monde {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+
+a {
+    color: #0f0f0f;
+}
+a:link {
+    text-decoration: none;
+}

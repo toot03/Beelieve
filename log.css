@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Cagliostro-Regular';
+    src: url('abeille/Cagliostro-Regular.ttf');
+}
+
+body{
+    display: flex;
+    background-image: url("img/wallbackgro.png");
+    background-size: 100%;
+    max-height: 750px;
+    font-family: Cagliostro-Regular;
+}
+
+#max-width{
+    width: 800px;
+    margin-left: 50px;
+}
+header{
+    display: flex;
+}
+nav{
+    margin-top: 20px;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: 1px 1px 20px #ddba15;
+    height: 100px;
+    width: 100%;
+    border-radius: 18px;
+}
+h1{
+    text-align: center;
+    color: beige;
+    font-size: xx-large;
+    letter-spacing: 4px;
+}
+span{
+    color: #ddba15;
+}
+
+a{ color: white;
+    text-decoration: none;
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+label{
+    margin: 20px;
+    color: white;
+}
+
+.fab {
+    font-size: 30px;
+    color: black;
+    margin-right: 9px;
+    margin-top: 7px;
+}
+.login{
+    color: #ddba15;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 250px;
+    opacity: 0.6;
+}
+
+article {
+    margin-top: 75px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+main {
+    background-color: rgba(0,0,0, 0.45);
+    box-shadow: 1px 1px 20px #ddba15;
+    width: 300px;
+    border-radius: 18px;
+    padding: 10px;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.color, h4 {
+    color: white;
+}
+input{
+    margin-bottom: 15px;
+}
+button {
+    margin-top: 20px;
+    background: #e6c12b;
+    background-image: -webkit-linear-gradient(top, #e6c12b, #e3ae10);
+    background-image: -moz-linear-gradient(top, #e6c12b, #e3ae10);
+    background-image: -ms-linear-gradient(top, #e6c12b, #e3ae10);
+    background-image: -o-linear-gradient(top, #e6c12b, #e3ae10);
+    background-image: linear-gradient(to bottom, #e6c12b, #e3ae10);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 15px;
+    font-family: Arial;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 5px 20px 9px 20px;
+    text-decoration: none;
+    border: solid #0f0f0f 4px;
+}
+
+button:hover {
+    background: #262626;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16%;
+
+
+}
+.mention{
+    background-color: rgba(255,255,255, 0.25);
+    border-radius: 10px;
+    width: 400px;
+    font-size: 10px;
+    text-align: center;
+}
+.logo3 {
+    margin-left: 2px;
+    margin-right: 4px;
+}

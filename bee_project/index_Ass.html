@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style_europe.css">
+</head>
+<body>
+<nav>
+    <a href="../map.html"><img class="logo" src="img/logo2.jpg.svg" alt="logo du site"></a>
+    <div class="nav_premier">
+        <select class="select_actualite">
+            <option value="1" selected>Actualités</option>
+            <option value="2">Documentaires</option>
+            <option value="3">Annonces</option>
+            <option value="4">Photos</option>
+        </select>
+        <select class="select_projet"  onchange="location = this.value;">
+            <option value="1">Projets</option>
+            <option value="index_Ass.html">Associatifs</option>
+            <option value="index_P.html">Participatifs</option>
+        </select>
+        <select id="select_decouverte">
+            <option value="1" selected>Près de chez vous</option>
+            <option value="2">Espèces</option>
+            <option value="3">Producteurs</option>
+        </select>
+        <p><a href="index_A.html">Ateliers</a></p>
+        <p><a href="index_S.html">Santé</a></p>
+        <p><a href="index_C.html">Cuisine</a></p>
+    </div>
+    <p><i class="far fa-user"></i> <a href="index_user.html"> MarineT</a></p>
+</nav>
+<section>
+    <aside>
+        <form action="get">
+            <input class="barre_de_recherche" type="text" placeholder="Rechercher">
+            <button><i class="fas fa-search"></i></button>
+            <p>Date</p>
+            <input type="radio" name="date" id="one_day">
+            <label for="one_day">1 jour</label><br>
+            <input type="radio" name="date" id="one_week">
+            <label for="one_week">1 semaine</label><br>
+            <input type="radio" name="date" id="one_month">
+            <label for="one_month">1 mois</label><br>
+            <input type="radio" name="date" id="one_year">
+            <label for="one_year">1 an</label>
+            <p>Tri</p>
+            <input type="radio" name="tri" id="plus_vu">
+            <label>Les + vus</label><br>
+            <input type="radio" name="tri" id="meilleur_note">
+            <label for="meilleur_note">Les mieux notés</label>
+        </form>
+    </aside>
+    <main>
+        <div >
+            <div class="titre_article">
+                <div>
+                    <img src="img/logo_jesuislabeille.png" alt="Le miel bleu">
+                    <p>Je suis abeille.</p>
+                </div>
+                <div>
+                    <img src="img/Beebox_logo.png" alt="Le miel bleu">
+                    <p>BeeAndBe.</p>
+                </div>
+            </div>
+            <div class="titre_article">
+                <div>
+                    <img src="img/LOGO_AR.png" alt="Le miel bleu">
+                    <p>Abeille Road.</p>
+                </div>
+                <div>
+                    <img src="img/logodesfilles.png" alt="Le miel bleu">
+                    <p>BeeAndMe.</p>
+                </div>
+            </div>
+    </main>
+</section>
+</body>
+</html>

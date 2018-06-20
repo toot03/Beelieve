@@ -1,0 +1,134 @@
+@font-face {
+    font-family:"Cagliostro-Regular.ttf" ;
+    src: url("../font/cagliostro/Cagliostro-Regular.ttf");
+}
+
+body{
+    margin:0px;
+    font-family: "Cagliostro-Regular.ttf";
+    font-size: 1.2em;
+    background-image: url("../img/WBDheader.jpg");
+    background-size: cover;
+}
+
+nav{
+    background-color: #ebcf18;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+.nav_premier{
+    display:flex;
+    justify-content: space-between;
+    width:700px;
+}
+
+.nav_premier select{
+    border: none;
+    background-color: #ebcf18;
+    height: 28px;
+    margin-top: 18px;
+    font-size: 1em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color:black;
+    font-family: "Cagliostro-Regular.ttf";
+}
+
+.logo {
+    height: 61px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:150px;
+    width:900px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+aside{
+    margin-top: 8px;
+    width:23%;
+    padding: 10px;
+    background-color:rgba(235,207,24,.9);
+    border-radius:5px;
+    box-shadow: 1px 2px 12px 2px rgba(0,0,0, .5);
+    height: 400px;
+}
+
+aside img{
+    width:100%;
+}
+
+aside ul{
+    background-color: rgba(255,255,255,.5);
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+main{
+    width:77%;
+    margin:0px 20px 0px 20px;
+    padding: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(125,125,125,.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info textarea{
+    border-radius: 5px;
+}
+
+.info input{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgb(235,207,24);
+    border-color: rgb(189, 203, 28);
+    width: 100px;
+}
+
+.total_favori{
+    background-color:rgba(235,207,24,.7);
+    margin-top:10px;
+    border-radius: 5px;
+    padding:10px;
+    max-height: 175px;
+    overflow: auto;
+}
+
+.favori{
+    display:flex;
+    background:rgba(125,125,125,.7);
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.favori img{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.favori p{
+    margin-left: 100px;
+}
+
+a{
+    color: #0f0f0f;
+}
+
+a:link{
+    text-decoration: none;
+}
